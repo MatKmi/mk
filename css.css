@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    color:#DFE6ED;
+    
+}
+header{
+    text-align: center;
+    font-weight: bold;
+    background-color: #313539;
+    height: 75px;
+    padding-top: 2px;
+    border: 1px solid black;
+}
+.lewy,.prawy{
+    float: left;
+    background-color: #313539;
+    height: 1000px;
+    width: 10%;
+    font-weight: bolder;
+    font-size: larger;
+    /* padding: 2px; */
+
+}
+.mid{
+    background-color: #4C4C4D;
+    height: 1000px;
+    width: 80%;
+    float: left;
+}
+footer{
+    background-color: black;
+}
+li:hover,a:hover{
+    text-decoration: underline;
+    color: blue;
+
+}
